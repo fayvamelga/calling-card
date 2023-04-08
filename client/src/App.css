@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,56 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* ------ global ------ */
+:root {
+  --primary-color: #3F497F;
+  --secondary-color: #F8F5E4;
+  --tertiary: #fad186;
+  --font-size: 16px;
+}
+
+* {
+  color: black;    /* testing */
+  font-family: 'Noto Serif Malayalam', serif;
+}
+
+body {
+  background-color: var(--tertiary) !important;
+  overflow-x: hidden;
+}
+
+#title {
+  color: var(--secondary-color);
+  font-family: 'Bungee', serif;
+  font-size: 35px;
+}
+/* ------ nav bar ------ */
+.navbar-logo {
+  height: 80px;
+  max-width: 100%;
+}
+
+#navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.496);
+}
+
+.tab {
+  margin: 35px;
+  position: relative;
+top: 30px;
+font-size: large;
+}
+
+.social-logo {
+  height: 30px;
+  margin: 35px;
+  position: relative;
+  bottom: 10px;
 }
