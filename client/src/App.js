@@ -34,7 +34,7 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
-import Home from "./pages/home.js";
+import Home from "./pages/Home.js";
 import Header from "./components/Header";
 // import Footer from "./components/Footer";
 // import Study from "./pages/study";
@@ -69,7 +69,7 @@ function App() {
         <>
           <Header />/
           <Routes>
-            {/* <Route exact path="/" element={<Home />} /> */}
+            <Route exact path="/" element={<Home />} />
 
             {/* get decks by user ID */}
             {/* <Route path="/:username/decks" element={<Decks />} /> */}

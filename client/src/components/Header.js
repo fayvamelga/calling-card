@@ -4,9 +4,8 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import youtube from "../images/youtube.png";
 import twitter from "../images/twitter.png"
+
 const AppNavbar = () => {
-
-
     return (
         <>
             <Navbar className="justify-content-center" activeKey="/home">
@@ -52,7 +51,7 @@ const AppNavbar = () => {
                                 <Nav.Link className="tab" href="#contact" >Contact Us</Nav.Link>
                                 </Nav.Item>
                                 <Navbar.Brand href="/" id="title">
-            <img className="social-logo" src={youtube} alt="youtube" />
+            <img className="social-logo" src={youtube} alt="youtube logo" />
             
           </Navbar.Brand>
           <Navbar.Brand href="/" id="title">

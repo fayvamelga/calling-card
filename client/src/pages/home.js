@@ -1,18 +1,29 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Image from 'react-bootstrap/Image';
-// import Image from "../images/icon-1.png";
 import logo from "../images/logo.png";
+import voice from "../images/voice.png";
 
 function Home() {
   return (
     <>
-      <Container className="landing-container">
-      <Col className="landing-middle" lg={4} sm={6}>
-            <img src={logo} className="landing-images" alt="Create a card" />
-          </Col>
+      <Container className="landing">
+        <Row>
+      {/* <Col className="landing-middle " lg={4} sm={6}> */}
+            <img className="landing" src={logo}  alt="Calling card logo" />
+            {/* </Col> */}
+            </Row>
+            </Container>
+
+            <Container className="landing">
+
+            <Row>
+            {/* <Col className="landing-middle " lg={4} sm={6}> */}
+            <h2 className="landing">Ethiopian voices live here.</h2>
+            <img className="voice" src={voice}  alt="voice clipart" />
+          {/* </Col> */}
+          </Row>
       </Container>
-    </>
+      </>
   );
 }
 export default Home;
