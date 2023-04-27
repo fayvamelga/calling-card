@@ -2,10 +2,11 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import logo from "../images/logo.png";
 import voice from "../images/voice.png";
+import About from "./About";
 
 function Home() {
   return (
-    <>
+    <><Container>
       <Container className="landing">
         <Row>
       {/* <Col className="landing-middle " lg={4} sm={6}> */}
@@ -22,6 +23,11 @@ function Home() {
             <img className="voice" src={voice}  alt="voice clipart" />
           {/* </Col> */}
           </Row>
+      </Container>
+
+
+      
+      <About/>
       </Container>
       </>
   );

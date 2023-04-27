@@ -3,6 +3,7 @@
   --primary-color: #3F497F;
   --secondary-color: #F8F5E4;
   --tertiary: #fad186;
+  --orange: #eb8314;
   --font-size: 16px;
 }
 
@@ -53,7 +54,7 @@ font-size: large;
 .landing {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .landing-text {
@@ -69,4 +70,20 @@ font-size: large;
   justify-content: center;
   z-index: 0; 
   margin-top: -100px;
+  padding-bottom: 50px;
+}
+
+/* ----About Us ----- */
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border: #eb8314;
+  border-width: 2px;
+  border-style: solid;
+  width: 1000px;
+margin-bottom: 30px;
 }
