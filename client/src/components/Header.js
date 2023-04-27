@@ -8,7 +8,7 @@ import twitter from "../images/twitter.png"
 const AppNavbar = () => {
     return (
         <>
-            <Navbar className="justify-content-center" activeKey="/home">
+            <Navbar className="justify-content-center" activeKey="/home" id="home" sticky="top">
                 <Container >
 
 
@@ -38,7 +38,7 @@ const AppNavbar = () => {
                                 <Nav.Link className="tab " href="#home">Home</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link className="tab" href="#about">About Us</Nav.Link>  
+                                <Nav.Link className="tab" href="#About">About Us</Nav.Link>  
                                 </Nav.Item> 
                                 <Nav.Item>             
                                 <Nav.Link className="tab" href="#projects">Projects</Nav.Link>  

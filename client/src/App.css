@@ -3,7 +3,7 @@
   --primary-color: #3F497F;
   --secondary-color: #F8F5E4;
   --tertiary: #fad186;
-  --orange: #eb8314;
+  --orange: #ff4d00;
   --font-size: 16px;
 }
 
@@ -34,6 +34,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.496);
+  position: fixed;
+  top: 0;
 }
 
 .tab {
@@ -75,13 +77,19 @@ font-size: large;
 
 /* ----About Us ----- */
 
+.about-title {
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+}
+
 .about {
   display: flex;
   justify-content: center;
 }
 
 .border {
-  border: #eb8314;
+  border: var(--orange);
   border-width: 2px;
   border-style: solid;
   width: 1000px;
