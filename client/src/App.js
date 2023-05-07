@@ -1,29 +1,4 @@
-// import logo from './logo.svg';
 import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import {
@@ -71,24 +46,8 @@ function App() {
           <Header />/
           <Routes>
             <Route exact path="/" element={<Home />} />
-
-            {/* get decks by user ID */}
-            {/* <Route path="/:username/decks" element={<Decks />} /> */}
-
-            {/* get cards by deck ID */}
-            {/* card modification using modal instead of a new page */}
-            {/* <Route path="/:deckId/cards" element={<Cards />} /> */}
-            {/* <Route path="/:deckId/study" element={<Study />} /> */}
-
-            {/* FOR TESTING  */}
-            {/* <Route exact path='/study' element={<Study/>} /> */}
-            {/* <Route path="/create" element={<Create />} /> */}
-            {/* <Route  path="/cards" element={<Cards/>} /> */}
-            {/* <Route  path="/decks" element={<Decks/>} /> */}
-
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Routes>
-          {/* <Footer /> */}
         </>
       </Router>
     </ApolloProvider>
