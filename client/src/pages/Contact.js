@@ -1,8 +1,6 @@
 import React from "react";
-import { Row, Container, Card, Col, Image, Form } from "react-bootstrap";
-import ceremony from '../images/ceremony.png'
-import podcast from '../images/podcast.png'
-
+import { Row, Container, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom"
 
 function Contact() {
   return (
@@ -12,24 +10,27 @@ function Contact() {
       <Container className="about">
         {/* <Row className="about-spacing"> */}
     <Col className="about-spacing">
-      <Card className="projBorder">
+      <Card className="contactBorder">
    
         <Row className="about">
-            <h2 className="about-title">Contact Us</h2>
+            <h2 className="about-title">We'd love to hear from you!</h2>
         </Row>
-    <h3>Email: CallingCardllc@gmail.com</h3>
-    <h3>Twitter: <span  href="https://twitter.com/callingcardllc?s=21">@callingcardllc</span></h3>
-    <h3>Instagram: </h3>
+
+        <Row>
+    <h3 className="contactText">Email:  CallingCardllc@gmail.com</h3>
+    <h3 className="contactText">Twitter:   <Link  to="https://twitter.com/callingcardllc?s=21">@callingcardllc</Link></h3>
+    <h3 className="contactText">Instagram:   <Link  to="https://instagram.com/callingcardllc?utm_medium=copy_link">@callingcardllc</Link></h3>
+    </Row>
         </Card>
         </Col>
-    <Col >
+    {/* <Col >
     <Card className="projBorder">
  
       <Row className="about">
           <h2 className="about-title">Message Us</h2>
       </Row>
   
-      <Form>
+      <Form className="contactForm">
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
@@ -40,7 +41,7 @@ function Contact() {
       </Form.Group>
     </Form>
       </Card>
-      </Col>
+      </Col> */}
       {/* </Row> */}
         </Container>
         

@@ -10,7 +10,7 @@ import Contact from "./Contact";
 function Home() {
   return (
     <>
-    <Container>
+    <Container >
       <Container className="landing">
         <Row className="logo">
       {/* <Col className="landing-middle " lg={4} sm={6}> */}

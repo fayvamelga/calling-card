@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container, Modal, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import youtube from "../images/youtube.png";
 import twitter from "../images/twitter.png"
@@ -34,7 +34,7 @@ const AppNavbar = () => {
             
           </Navbar.Brand>
           <Navbar.Brand href="/" id="title">
-            <img className="social-logo" src={twitter} alt="twitter logo" />
+           <Link to='https://twitter.com/callingcardllc?s=21'> <img className="social-logo" src={twitter} alt="twitter logo" /></Link>
 
           </Navbar.Brand>
                            

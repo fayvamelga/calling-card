@@ -16,7 +16,8 @@
 body {
   background-color: var(--tertiary) !important;
   overflow-x: hidden;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+  max-width: 100%;
 }
 
 #title {
@@ -26,7 +27,7 @@ body {
 }
 
 .div {
-padding-top: 4%;}
+padding-top: 5%;}
 
 .projDiv {
   padding-top: 9%;}
@@ -34,11 +35,13 @@ padding-top: 4%;}
 .navbar-logo {
   display: flex;
   flex-wrap: wrap;
-  height: 80px;
+  height: 100px;
   max-width: 100%;
+  flex-shrink: 1;
 }
 
 #navbar {
+  flex-shrink: 1;
   /* height: 80px; */
   width: 100%;
   display: flex;
@@ -71,11 +74,13 @@ font-size: large;
 .landing {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 72px;
 }
 
 .landing-text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   z-index: 2; 
 
@@ -92,6 +97,7 @@ font-size: large;
 .voice {
   max-width: 400px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   z-index: 0; 
   margin-top: -100px;
@@ -103,14 +109,17 @@ font-size: large;
 .about-title {
   color: var(--orange);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .about-text {
  text-align: center;
  display: flex;
+ flex-wrap: wrap;
  justify-content: center;
  margin: 5%;
+
 }
 
 .about {
@@ -160,7 +169,24 @@ margin-right: 1%;
   border-style: solid;
   width: 40vw;
   height: 55vh;
-  /* min-height: 50vh; */
+margin-bottom: 1%;
+}
+
+/* ---Contact Us--- */
+.contactText {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  word-break: break-all;
+  margin-top: 8%;
+  text-decoration: none;
+}
+.contactBorder {
+  border: var(--orange);
+  border-width: 2px;
+  border-style: solid;
+  width: 50vw;
+  height: 55vh;
 margin-bottom: 1%;
 }
 
@@ -171,4 +197,35 @@ margin-bottom: 1%;
   text-align: center;
   color: rgb(180, 177, 177);
   margin-top: 6%;
+}
+
+
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .navbar-logo {
+    max-height: 60px;
+  }
+  body {
+    max-width: 400px;
+  }
+  #navbar {
+    max-width: 400px;
+  }
+  .border {
+    width: 300px;
+  }
+  .projBorder {
+    width: 300px;
+  }
+  .contactBorder {
+    width: 300px;
+  }
+  .contactText {
+    margin-left: 5%;
+
+  }
 }
