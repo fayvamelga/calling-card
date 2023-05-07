@@ -3,6 +3,7 @@ import { Row, Container } from "react-bootstrap";
 import logo from "../images/logo.png";
 import voice from "../images/voice.png";
 import About from "./About";
+import Projects from "./Projects";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
 
 
       <About/>
+      <Projects/>
       </Container>
       </>
   );

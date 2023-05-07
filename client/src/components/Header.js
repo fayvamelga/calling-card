@@ -41,7 +41,7 @@ const AppNavbar = () => {
                                 <Nav.Link className="tab" href="#About">About Us</Nav.Link>  
                                 </Nav.Item> 
                                 <Nav.Item>             
-                                <Nav.Link className="tab" href="#projects">Projects</Nav.Link>  
+                                <Nav.Link className="tab" href="#Projects">Projects</Nav.Link>  
                                 </Nav.Item>
                                 <Navbar.Brand href="/" id="title" className="company">
                         <img className="navbar-logo" src={logo} alt="logo" />
