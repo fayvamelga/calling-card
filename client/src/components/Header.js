@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Navbar, Nav, Container, Modal, Button } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import youtube from "../images/youtube.png";
