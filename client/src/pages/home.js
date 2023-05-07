@@ -4,6 +4,8 @@ import logo from "../images/logo.png";
 import voice from "../images/voice.png";
 import About from "./About";
 import Projects from "./Projects";
+import Footer from "../components/Footer";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -31,6 +33,8 @@ function Home() {
 
       <About/>
       <Projects/>
+      <Contact/>
+      <Footer/>
       </Container>
       </>
   );

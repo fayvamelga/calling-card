@@ -28,7 +28,7 @@ body {
 padding-top: 4%;}
 
 .projDiv {
-  padding-top: 8%;}
+  padding-top: 9%;}
 /* ------ nav bar ------ */
 .navbar-logo {
   height: 80px;
@@ -147,4 +147,12 @@ margin-right: 1%;
   height: 55vh;
   /* min-height: 50vh; */
 margin-bottom: 1%;
+}
+
+/* ---Footer--- */
+.footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: rgb(180, 177, 177);
 }

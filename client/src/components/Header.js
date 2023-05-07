@@ -48,7 +48,7 @@ const AppNavbar = () => {
                         {/* Calling Card */}
                     </Navbar.Brand>  
                     <Nav.Item>            
-                                <Nav.Link className="tab" href="#contact" >Contact Us</Nav.Link>
+                                <Nav.Link className="tab" href="#Contact" >Contact Us</Nav.Link>
                                 </Nav.Item>
                                 <Navbar.Brand href="/" id="title">
             <img className="social-logo" src={youtube} alt="youtube logo" />
