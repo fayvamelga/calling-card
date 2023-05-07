@@ -8,32 +8,12 @@ import twitter from "../images/twitter.png"
 const AppNavbar = () => {
     return (
         <>
-            <Navbar className="justify-content-center" activeKey="/home" id="home" sticky="top">
+            <Navbar className="navbar"   activeKey="/home" id="home" sticky="top">
                 <Container >
 
 
-                    <Nav className="justify-content-center"  id="navbar"     activeKey="/home">
-                        {/* {Auth.loggedIn() ? (
-                            <>
-                                <Button
-                                    variant="secondary"
-                                    onClick={logout}
-                                    style={{ backgroundColor: "#F7C04A" }}
-                                    className="btn"
-                                >
-                                    Logout
-                                </Button>
-                                <Button
-                                    variant="secondary"
-                                    onClick={viewDecks}
-                                    style={{ backgroundColor: "#F7C04A" }}
-                                    className="btn"
-                                >
-                                    Projects
-                                </Button>
-                            </>
-                        ) : ( */}
-                            {/* <> */}
+                    <Nav   id="navbar" activeKey="/home">
+                    
                             <Nav.Item >
                                 <Nav.Link className="tab " href="#home">Home</Nav.Link>
                                 </Nav.Item>
@@ -45,7 +25,6 @@ const AppNavbar = () => {
                                 </Nav.Item>
                                 <Navbar.Brand href="/" id="title" className="company">
                         <img className="navbar-logo" src={logo} alt="logo" />
-                        {/* Calling Card */}
                     </Navbar.Brand>  
                     <Nav.Item>            
                                 <Nav.Link className="tab" href="#Contact" >Contact Us</Nav.Link>
@@ -58,8 +37,7 @@ const AppNavbar = () => {
             <img className="social-logo" src={twitter} alt="twitter logo" />
 
           </Navbar.Brand>
-                            {/* </> */}
-                        {/* )} */}
+                           
                     </Nav>
                 </Container>
             </Navbar>

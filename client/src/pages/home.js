@@ -12,9 +12,9 @@ function Home() {
     <>
     <Container>
       <Container className="landing">
-        <Row>
+        <Row className="logo">
       {/* <Col className="landing-middle " lg={4} sm={6}> */}
-            <img className="landing" src={logo}  alt="Calling card logo" />
+            <img className="logo" src={logo}  alt="Calling card logo" />
             {/* </Col> */}
             </Row>
             </Container>
