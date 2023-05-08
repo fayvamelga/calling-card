@@ -213,7 +213,10 @@ margin-bottom: 1%;
     max-width: 400px;
   }
   #navbar {
-    max-width: 400px;
+    max-width: 100%;
+  }
+  .landing {
+    margin-top: 45%;
   }
   .border {
     width: 300px;
@@ -228,4 +231,58 @@ margin-bottom: 1%;
     margin-left: 5%;
 
   }
+}
+
+
+@media (max-width: 280px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .navbar-logo {
+    max-height: 20px;
+  }
+  .social-logo {
+    height: 15px;
+    bottom: 0%;
+  }
+  .tab {
+    font-size: small;
+  margin: 5px;
+  }
+  body {
+    max-width: 400px;
+  }
+  #navbar {
+    max-width: 100%;
+  }
+  .logo {
+    margin-top: 10%;
+  }
+  .landing-text {
+    max-width: 100%;
+    font-size: medium;
+    margin-bottom: 20%;
+  }
+  .voice {
+    max-width: 100%;
+    margin-bottom: 25%;
+  }
+  .border {
+    width: 200px;
+    height: 320px;
+}
+  .projBorder {
+    width: 200px;
+    height: 500px;
+  }
+  .contactBorder {
+    width: 200px;
+    height: 300px;
+  }
+  .contactText {
+    margin-left: 5%;
+
+  }
+
 }

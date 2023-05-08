@@ -21,7 +21,7 @@ function Home() {
 
             <Container className="landing">
 
-            <Row>
+            <Row> 
             {/* <Col className="landing-middle " lg={4} sm={6}> */}
             <h1 className="landing-text">Ethiopian voices live here.</h1>
             <img className="voice" src={voice}  alt="voice clipart" />
