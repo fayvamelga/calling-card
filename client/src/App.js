@@ -44,6 +44,7 @@ function App() {
       <Router>
         <>
           <Header />/
+          
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
