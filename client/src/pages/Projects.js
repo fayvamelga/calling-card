@@ -10,7 +10,7 @@ function Projects() {
     <div id="Projects" className="projDiv"></div>
     <h1 className="about-title" >Projects</h1>
       <Container className="about">
-        {/* <Row className="about-spacing"> */}
+        <Row className="about-spacing">
     <Col className="about-spacing">
       <Card className="projBorder">
    
@@ -54,7 +54,7 @@ decided to stayed, or didn’t.</h3>
         </Row>
       </Card>
       </Col>
-      {/* </Row> */}
+      </Row>
         </Container>
         
 

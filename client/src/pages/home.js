@@ -6,14 +6,20 @@ import About from "./About";
 import Projects from "./Projects";
 import Footer from "../components/Footer";
 import Contact from "./Contact";
+import Voices from "../Videos/Voices.mp4"
 
 function Home() {
   return (
     <>
     <Container >
-      <Container className="landing">
-        <Row className="logo">
-            <img className="logo" src={logo}  alt="Calling card logo" />
+      <Container >
+        {/* <Row className="logo"> */}
+        <Row>
+          <video id="background-video" autoPlay muted loop>
+  <source src={Voices} type="video/mp4"/> 
+</video>
+
+            {/* <img className="logo" src={logo}  alt="Calling card logo" />
             </Row>
             </Container>
 
@@ -22,7 +28,7 @@ function Home() {
             <Row> 
      
             <h1 className="landing-text">Ethiopian voices live here.</h1>
-            <img className="voice" src={voice}  alt="voice clipart" />
+            <img className="voice" src={voice}  alt="voice clipart" /> */}
           </Row>
       </Container>
 
