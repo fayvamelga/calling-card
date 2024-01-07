@@ -20,7 +20,7 @@ function About() {
             <h2 className="about-title">Who We Are</h2>
         </Row>
 
-        <Row >
+        <Row className="about">
           <li className="about-text">
 <ul>Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</ul>
 </li>

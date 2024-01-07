@@ -29,7 +29,7 @@ const AppNavbar = () => {
                   Projects
                 </Nav.Link>
               </Nav.Item>
-              <Navbar.Brand href="/"  className="company">
+              <Navbar.Brand href="/"  >
                 <img className="navbar-logo" src={logo} alt="logo" />
               </Navbar.Brand>
               <Nav.Item>
