@@ -17,12 +17,12 @@ function About() {
       <img src={wwa}  alt="Calling Card logo" /> 
       </Row>
         <Row className="about">
-            <h2 className="about-title">Who We Are</h2>
+            <h3 className="about-title">Who We Are</h3>
         </Row>
 
         <Row className="about">
-          <li className="about-text">
-<ul>Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</ul>
+          <li>
+<ul className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</ul>
 </li>
         </Row>
         </Card>
@@ -34,7 +34,7 @@ function About() {
       <img src={wwd}  alt="Calling Card logo" /> 
       </Row >
  <Row className="about">
-     <h2 className="about-title">What We Do</h2>
+     <h3 className="about-title">What We Do</h3>
  </Row>
 
  <Row>

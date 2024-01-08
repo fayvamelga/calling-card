@@ -31,6 +31,7 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+  margin-top: -7%;
 }
 
 #title {
@@ -89,7 +90,7 @@ margin-bottom: -30%;
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-font-size: large;
+font-size: x-large;
 color: white;
 text-decoration: none;
 }
