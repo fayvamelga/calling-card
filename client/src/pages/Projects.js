@@ -8,9 +8,9 @@ function Projects() {
     <>
       <div id="Projects" className="projDiv"></div>
       <h1 className="about-title">Projects</h1>
-      <Container>
-        <Row></Row>
-
+      <br></br>
+      <br></br>
+      <Container className="ceremony">
         <Row className="ceremony">
           <Col className="ceremony">
             <Image
@@ -21,19 +21,51 @@ function Projects() {
           </Col>
 
           <Col className="ceremony">
-            <li >
+            <ul className="ceremonyText">
+
               <h2 className="ceremonyText">Ceremony</h2>
 
-              <br></br>
               <p className="ceremonyText">
                 Ceremony is a short film that showcases an encounter between two
                 strangers over traditional Ethiopian coffee.
               </p>
-            </li>
+            </ul>
           </Col>
         </Row>
       </Container>
 
+<br></br>
+<br></br>
+
+      <Container className="ceremony">
+        <Row className="ceremony">
+    
+
+          <Col className="ceremony">
+            <ul className="ceremonyText">
+              
+              <h2 className="podcastText">Start From the Beginning</h2>
+
+              <p className="podcastText">
+              Through a series of interview conversations, Start from the
+                Beginning explores the journeys of an Ethiopian Diaspora family
+                group in the US, how they got here, what they found when they
+                arrived, and why each of them decided to stayed, or didn’t.
+              </p>
+            </ul>
+          </Col>
+
+          <Col className="ceremony">
+            <Image
+              className="podcastImg"
+              src={podcast}
+              alt="podcast Image"
+            />
+          </Col>
+
+        </Row>
+      </Container>
+{/* 
       <Container>
         <Col>
           <Row className="about">
@@ -54,7 +86,7 @@ function Projects() {
             </Col>
           </Row>
         </Col>
-      </Container>
+      </Container> */}
     </>
   );
 }
