@@ -31,7 +31,7 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
-  margin-top: -7%;
+  /* margin-top: ; */
 }
 
 #title {
@@ -146,6 +146,7 @@ text-decoration: none;
 
 /* ----About Us ----- */
 
+
 .about-title {
   /* color: var(--orange); */
   color: white;
@@ -161,6 +162,7 @@ text-decoration: none;
  justify-content: center;
  margin: 5%;
  color: white;
+ 
 }
 
 .about {
@@ -188,30 +190,30 @@ margin-right: 1%;
 }
 
 /* ---Projects---- */
+#Projects {
+  margin-top: 5%;
+}
 .ceremonyImg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 70%;;
-  margin-left: 15%;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: center; */
+  max-width: 30%;
+  /* margin-left: 15%; */
 }
 
 .podcastImg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 70%;;
+  /* justify-content: center; */
+  max-width: 110%;
   margin-left: 15%;
   margin-top: 4%;
 }
 
-.projBorder {
-  /* border: var(--orange); */
-  border-width: 2px;
-  border-style: solid;
-  width: 40vw;
-  height: 55vh;
-margin-bottom: 1%;
+
+
+.ceremonyText {
+  color: white;
 }
 
 /* ---Contact Us--- */
