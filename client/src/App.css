@@ -263,11 +263,12 @@ justify-content: center;
 .contactText {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100vw;
+  /* max-width: 100vw; */
   /* margin-left: 25%; */
   /* word-break: break-all; */
   /* margin-top: 8%; */
-  text-decoration: none;
+  /* text-decoration: none; */
+  justify-content: center;
   color: white;
 }
 /* .contactBorder {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Container, Col, Form, Button } from "react-bootstrap";
+import { Row, Container, Col, Form, Button, } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Contact() {
@@ -7,13 +7,14 @@ function Contact() {
     <>
       <div id="Contact" className="projDiv"></div>
       <h1 className="about-title">Contact Us</h1>
+      <br></br>
       <Container>
         {/* <Row className="about-spacing"> */}
         <Col >
           {/* <Card className="contactBorder"> */}
 
           <Row className="contact">
-            <h2 className="contactText">We'd love to hear from you!</h2>
+            <h2 className="contactText">Drop us a line!</h2>
           </Row>
           </Col>
 
@@ -21,30 +22,35 @@ function Contact() {
     <h3 className="contactText">Twitter:   <Link  to="https://twitter.com/callingcardllc?s=21">@callingcardllc</Link></h3>
     <h3 className="contactText">Instagram:   <Link  to="https://instagram.com/callingcardllc?utm_medium=copy_link">@callingcardllc</Link></h3> */}
     <Container className="form">
-      <Col>
+      <Col className="text-center">
             <Form>
             <Form.Group
-                className="mb-3" as={Col} md="8"
+             as={Col} md={{ span: 6, offset: 3 }}
               >
                 <Form.Label className="contactForm"></Form.Label>
                 <Form.Control type="text" placeholder="Name" />
               </Form.Group>
-              <br></br>
                    <Form.Group
-                className="mb-3"
+        as={Col} md={{ span: 6, offset: 3 }}
               >
                 <Form.Label className="contactForm"></Form.Label>
                 <Form.Control type="email" placeholder="Email" />
               </Form.Group>
-              <br></br>
               <Form.Group
-                className="mb-3"
+             as={Col} md={{ span: 6, offset: 3 }}
+              >
+                <Form.Label className="contactForm"></Form.Label>
+                <Form.Control type="tel" placeholder="Phone Number" />
+              </Form.Group>
+              <Form.Group
+                  as={Col} md={{ span: 6, offset: 3 }}
                 controlId="exampleForm.ControlTextarea1"
               >
                 <Form.Label className="contactForm"> </Form.Label>
-                <Form.Control as="textarea" rows={3}  placeholder="Message"/>
+                <Form.Control as="textarea" rows={6}  placeholder="Message"/>
               </Form.Group>
-              <Button className="Button">Send Message</Button>{' '}
+              <br></br>
+              <Button variant="outline-light" className="Button">Send Message</Button>{' '}
             </Form>
           {/* </Row> */}
           {/* </Card> */}
