@@ -247,6 +247,11 @@ justify-content: center;
   margin-right: 20%; */
 /* justify-content: center; */
 }
+/* Story */
+
+.storyText {
+  color: white;
+}
 
 /* ---Contact Us--- */
 .contact {

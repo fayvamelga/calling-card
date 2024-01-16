@@ -7,19 +7,26 @@ function Story () {
         <div id="Story" className="div">
             <br></br>
             <h1 className="about-title">Share Your Story</h1>
+            <br></br>
         <Container>
-            <Row className="contact">
-                <p className="contactText">Add your family’s story to the diaspora archive.</p>
+            <Row className="text-center">
+                <p className="storyText">Add your family’s story to the diaspora archive.</p>
             </Row>
+            <br></br>
+            <br></br>
             <div className="d-grid gap-2">
-      <Button variant="primary" size="lg">
-        Block level button
+      <Button variant="outline-light" size="lg">
+        Submit Audio
       </Button>
-      <Button variant="secondary" size="lg">
-        Block level button
+      <br></br>
+      <br></br>     
+      <Button variant="outline-light" size="lg">
+        Archives
       </Button>
     </div>
         </Container>
+        <br></br>
+        <br></br>     <br></br>     <br></br>
         </div>
         </>
     );
