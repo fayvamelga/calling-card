@@ -33,12 +33,12 @@ const AppNavbar = () => {
                 <img className="navbar-logo" src={logo} alt="logo" />
               </Navbar.Brand>
               <Nav.Item>
-                <Nav.Link className="tab" href="#Podcasts">
-                  Podcasts
+                <Nav.Link className="tab" href="#Podcast">
+                  Podcast
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="tab" href="#Archives">
+                <Nav.Link className="tab" href="#Story">
                   Archives
                 </Nav.Link>
               </Nav.Item>

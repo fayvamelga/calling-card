@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Contact from "./Contact";
 import Voices from "../Videos/Voices.mp4";
 import Podcast from "./Podcast";
-// import Stories from "./Stories";
+import Stories from "./Stories";
 
 function Home() {
   return (
@@ -39,7 +39,7 @@ function Home() {
       <About/>
       <Projects/>
       <Podcast/>
-      {/* <Stories/> */}
+      <Stories/>
       <Contact/>
       <Footer/>
       </Container>
