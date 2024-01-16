@@ -9,8 +9,9 @@
 }
 
 * {
-  color: black;    /* testing */
+  /* color: black;    testing */
   font-family: 'Noto Serif Malayalam', serif;
+  background-color: black;
 }
 
 body {
@@ -22,9 +23,9 @@ body {
 }
 
 #background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover !important;
   /* position: fixed; */
   left: 0;
   right: 0;
@@ -91,7 +92,7 @@ margin-bottom: -30%;
   display: flex;
   flex-wrap: wrap;
 font-size: x-large;
-color: white;
+color: white !important;
 text-decoration: none;
 }
 
@@ -187,6 +188,10 @@ margin-bottom: 1%;
 .about-spacing {
   margin-left: 1%;
 margin-right: 1%;
+}
+
+.aboutImg {
+  max-height: 15vh;
 }
 
 /* ---Projects---- */

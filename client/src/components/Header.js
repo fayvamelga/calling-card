@@ -15,7 +15,7 @@ const AppNavbar = () => {
           <Container>
             <Nav id="navbar" activeKey="/home">
               <Nav.Item>
-                <Nav.Link className="tab " href="/">
+                <Nav.Link className="tab "  href="/">
                   Home
                 </Nav.Link>
               </Nav.Item>

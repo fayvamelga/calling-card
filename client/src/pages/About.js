@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Container, Card, Col } from "react-bootstrap";
+import { Row, Container, Image, Col } from "react-bootstrap";
 import wwa from "../images/WWA.png";
 import wwd from "../images/WWD.png";
 
@@ -10,8 +10,50 @@ function About() {
     <div id="About" className="div"></div>
     <br></br>
     <h1 className="about-title" >About Us</h1>
-      <Container className="about">
+    <Container >
         {/* <Row className="about-spacing"> */}
+    <Row className="about-text">
+        <Col >
+      <Image  src={wwa}  alt="Calling Card logo" /> 
+      </Col>
+      <Col > 
+      <Image src={wwd} roundedCircle alt="Calling Card logo" /> 
+      </Col >
+      </Row>
+
+        <Row className="about-text" >
+          <Col>
+            <h1 >Who We Are</h1>
+            </Col>
+            <Col >
+     <h1 >What We Do</h1>
+ </Col>
+        </Row>
+
+        <Row className="about">
+          <Col>
+          <ul>
+<h2 className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h2>
+</ul>
+</Col>
+
+<Col>
+
+      <ul>
+    <h2 className="about-text">Podcasting</h2>
+    <h2 className="about-text">Screenwriting</h2>
+    <h2 className="about-text">Film Production</h2>
+    </ul>
+
+            </Col>
+        </Row>
+
+   
+  
+        </Container>
+
+
+      {/* <Container className="about">
     <Col>
       <Card className="border">
         <Row className="about">
@@ -22,9 +64,9 @@ function About() {
         </Row>
 
         <Row className="about">
-          <li>
+          <ul>
 <h2 className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h2>
-</li>
+</ul>
         </Row>
         </Card>
         </Col>
@@ -39,16 +81,16 @@ function About() {
  </Row>
 
  <Row>
-  <li>
+  <ul>
 <h2 className="about-text">Podcasting</h2>
 <h2 className="about-text">Screenwriting</h2>
 <h2 className="about-text">Film Production</h2>
-</li>
+</ul>
  </Row>
  </Card>
         </Col>
   
-        </Container>
+        </Container> */}
         <br></br>
         <br></br>
         <br></br>

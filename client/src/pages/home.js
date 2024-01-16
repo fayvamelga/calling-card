@@ -16,8 +16,8 @@ function Home() {
     <Container >
       <Container >
         {/* <Row className="logo"> */}
-        <Row>
-          <video id="background-video" autoPlay muted loop>
+        <Row className="embed-responsive">
+          <video id="background-video" >
   <source src={Voices} type="video/mp4"/> 
 </video>
 
