@@ -10,7 +10,70 @@ function Projects() {
       <h1 className="about-title">Projects</h1>
       <br></br>
       <br></br>
-      <Container className="ceremony">
+
+
+      <Container className="text-center" >
+        <Row>
+          <Col >
+            <Image
+              className="ceremonyImg"
+              src={ceremony}
+              alt="Ceremony Image"
+            />
+          </Col>
+
+          <Col className="ceremonyText" >
+            <ul >
+
+              <h2 >Ceremony</h2>
+
+              <p >
+                Ceremony is a short film that showcases an encounter between two
+                strangers over traditional Ethiopian coffee.
+              </p>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+      <Container className="text-center">
+        <Row >
+    
+
+          <Col className="ceremonyText">
+            <ul >
+              
+              <h2 >Start From the Beginning</h2>
+
+              <p >
+              Through a series of interview conversations, Start from the
+                Beginning explores the journeys of an Ethiopian Diaspora family
+                group in the US, how they got here, what they found when they
+                arrived, and why each of them decided to stayed, or didn’t.
+              </p>
+            </ul>
+          </Col>
+
+          <Col >
+            <Image
+              
+              src={podcast}
+              alt="podcast Image"
+            />
+          </Col>
+
+        </Row>
+      </Container>
+
+      <br></br><br></br><br></br>
+
+      {/* <Container className="ceremony">
         <Row className="ceremony">
           <Col className="ceremony">
             <Image
@@ -64,7 +127,7 @@ function Projects() {
           </Col>
 
         </Row>
-      </Container>
+      </Container> */}
 {/* 
       <Container>
         <Col>
