@@ -6,6 +6,7 @@ function Story () {
         <>
         <div id="Story" className="div">
             <br></br>
+            <br></br>
             <h1 className="about-title">Share Your Story</h1>
             <br></br>
         <Container>

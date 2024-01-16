@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import youtube from "../images/youtube.png";
@@ -30,7 +30,7 @@ const AppNavbar = () => {
                 </Nav.Link>
               </Nav.Item>
               <Navbar.Brand href="/"  >
-                <img className="navbar-logo" src={logo} alt="logo" />
+                <Image className="navbar-logo"  src={logo} alt="logo" />
               </Navbar.Brand>
               <Nav.Item>
                 <Nav.Link className="tab" href="#Podcast">

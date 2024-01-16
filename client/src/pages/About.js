@@ -9,6 +9,7 @@ function About() {
     <>
     <div id="About" className="div"></div>
     <br></br>
+    <br></br>
     <h1 className="about-title" >About Us</h1>
     <Container >
         {/* <Row className="about-spacing"> */}
