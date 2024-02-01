@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Voices from "../Videos/Voices.mp4";
 import Podcast from "./Podcast";
 import Stories from "./Stories";
+import Connect from "./Connect";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function Home() {
       <Podcast/>
       <Stories/>
       <Contact/>
+      <Connect/>
       <Footer/>
       </Container>
       </>

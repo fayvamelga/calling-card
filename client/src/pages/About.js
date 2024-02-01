@@ -34,16 +34,16 @@ function About() {
         <Row className="about">
           <Col>
           <ul>
-<h2 className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h2>
+<h3 className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h3>
 </ul>
 </Col>
 
 <Col>
 
       <ul>
-    <h2 className="about-text">Podcasting</h2>
-    <h2 className="about-text">Screenwriting</h2>
-    <h2 className="about-text">Film Production</h2>
+    <h3 className="about-text">Podcasting</h3>
+    <h3 className="about-text">Screenwriting</h3>
+    <h3 className="about-text">Film Production</h3>
     </ul>
 
             </Col>

@@ -305,6 +305,22 @@ display: flex;
 justify-content: center;
 }
 
+/* ---Connect--- */
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.ig {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 70px;
+}
+
 /* ---Footer--- */
 .footer {
   bottom: 0;
@@ -356,7 +372,18 @@ justify-content: center;
     margin-left: 5%;
 
   }
+
+  .icons {
+justify-content: space-evenly;
+    height: 20px;
 }
+
+.ig {
+  justify-content: space-evenly;
+      height: 30px;
+    }
+}
+  
 
 @media (max-width: 666px) {
   .tab {

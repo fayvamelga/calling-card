@@ -22,7 +22,7 @@ function Contact() {
     <h3 className="contactText">Twitter:   <Link  to="https://twitter.com/callingcardllc?s=21">@callingcardllc</Link></h3>
     <h3 className="contactText">Instagram:   <Link  to="https://instagram.com/callingcardllc?utm_medium=copy_link">@callingcardllc</Link></h3> */}
     <Container className="form">
-      <Col className="text-center">
+      <Col>
             <Form>
             <Form.Group
              as={Col} md={{ span: 6, offset: 3 }}
@@ -49,7 +49,6 @@ function Contact() {
                 <Form.Label className="contactForm"> </Form.Label>
                 <Form.Control as="textarea" rows={6}  placeholder="Message"/>
               </Form.Group>
-              <br></br>
               <Button variant="outline-light" className="Button">Send Message</Button>{' '}
             </Form>
           {/* </Row> */}
