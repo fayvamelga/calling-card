@@ -43,8 +43,8 @@ const AppNavbar = () => {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="tab" href="#Contact">
-                  Contact 
+                <Nav.Link className="tab" href="#Connect">
+                  Connect 
                 </Nav.Link>
               </Nav.Item>
               {/* <Navbar.Brand href="/" id="title">

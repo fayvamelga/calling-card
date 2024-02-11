@@ -49,7 +49,8 @@ function Contact() {
                 <Form.Label className="contactForm"> </Form.Label>
                 <Form.Control as="textarea" rows={6}  placeholder="Message"/>
               </Form.Group>
-              <Button variant="outline-light" className="Button">Send Message</Button>{' '}
+              <br></br>
+              <Button  variant="outline-light" className="Button">Send Message</Button>{' '}
             </Form>
           {/* </Row> */}
           {/* </Card> */}

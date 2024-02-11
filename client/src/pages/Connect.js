@@ -4,25 +4,42 @@ import { Link } from "react-router-dom";
 import instagram from "../images/instagram.png"; 
 import X from "../images/twitter.png";
 import youtube from "../images/yt.png";
+import email from "../images/email.png";
+
+function openSocials(url) {
+    // Define the action you want to perform when the image is clicked
+    // For example, opening the link in a new tab/window
+    window.open(url, '_blank');
+  }
 
 function Contact() {
   return (
     <>
-      <div id="Contact" className="projDiv"></div>
+      <div id="Connect" className="projDiv"></div>
       <h1 className="about-title">Connect With Us</h1>
       <br></br>
              
 <Container>
       <Row className="icons"> 
+      <Col xs={4} md={4} className="icons" >
+          <Image src={email} rounded className="ig" onClick={() => openSocials("https://instagram.com/callingcardllc?utm_medium=copy_link")}
+ />
+        </Col>
         <Col xs={4} md={4} className="icons" >
-          <Image src={instagram} rounded className="ig" />
+          <Image src={instagram} rounded className="ig" onClick={() => openSocials("https://instagram.com/callingcardllc?utm_medium=copy_link")}
+ />
         </Col>
         <Col xs={4} md={4} className="icons">
-          <Image src={X} rounded className="icons"/>
+          <Image src={X} rounded className="icons" onClick={() => openSocials("https://twitter.com/callingcardllc?s=21")}
+ />
         </Col>
-        <Col xs={4} md={4} className="icons" >
-          <Image src={youtube} rounded className="icons"/>
-        </Col>
+
+        {/* ---YouTube--- */}
+        {/* <Col xs={4} md={4} className="icons" >
+          <Image src={youtube} rounded className="icons" onClick={() => openSocials("https://instagram.com/callingcardllc?utm_medium=copy_link")}
+ />
+        </Col> */}
+        
       </Row>
     </Container>
     </>

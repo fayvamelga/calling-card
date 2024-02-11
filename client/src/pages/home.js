@@ -41,7 +41,7 @@ function Home() {
       <Projects/>
       <Podcast/>
       <Stories/>
-      <Contact/>
+      {/* <Contact/> */}
       <Connect/>
       <Footer/>
       </Container>

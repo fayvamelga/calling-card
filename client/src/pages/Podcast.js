@@ -17,13 +17,13 @@ function Podcast () {
             <br></br>
             <br></br>
             <Row  >
-                <Col md={{ span: 6, offset: 3}}>
+                {/* <Col md={{ span: 6, offset: 3}}> */}
             <Image
             className="podcastImg" 
               src={podcast}
               alt="podcast Image"
             />
-            </Col>
+            {/* </Col> */}
             </Row>
             <br></br>
             <br></br>
