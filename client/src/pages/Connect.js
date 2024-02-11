@@ -12,7 +12,16 @@ function openSocials(url) {
     window.open(url, '_blank');
   }
 
+
+  
 function Contact() {
+
+    const companyEmail = 'CallingCardllc@gmail.com';
+
+    const message = () => {
+      window.location.href = `mailto:${companyEmail}`;
+    };
+
   return (
     <>
       <div id="Connect" className="projDiv"></div>
@@ -22,7 +31,8 @@ function Contact() {
 <Container>
       <Row className="icons"> 
       <Col xs={4} md={4} className="icons" >
-          <Image src={email} rounded className="ig" onClick={() => openSocials("https://instagram.com/callingcardllc?utm_medium=copy_link")}
+          <Image src={email} rounded className="ig" onClick={message} style={{ cursor: 'pointer' }}
+              alt="Email icon"
  />
         </Col>
         <Col xs={4} md={4} className="icons" >
