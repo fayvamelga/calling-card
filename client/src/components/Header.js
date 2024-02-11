@@ -52,7 +52,7 @@ const AppNavbar = () => {
                   <NavDropdown.Item className="dropDown" href="#About">About Us</NavDropdown.Item>
                   <NavDropdown.Item className="dropDown" href="#Projects">Projects</NavDropdown.Item>
                   <NavDropdown.Item className="dropDown" href="#Podcast">Podcast</NavDropdown.Item>
-                  <NavDropdown.Item className="dropDown" href="Connect">Connect</NavDropdown.Item>
+                  <NavDropdown.Item className="dropDown" href="#Connect">Connect</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

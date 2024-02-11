@@ -11,14 +11,14 @@ function About() {
     <br></br>
     <br></br>
     <h1 className="about-title" >About Us</h1>
-    <Container >
+    <Container className="us">
         {/* <Row className="about-spacing"> */}
     <Row className="about-text">
         <Col >
       <Image  src={wwa}  alt="Calling Card logo" /> 
       </Col>
       <Col > 
-      <Image src={wwd} roundedCircle alt="Calling Card logo" /> 
+      <Image className="wwd" src={wwd} roundedCircle alt="Calling Card logo" /> 
       </Col >
       </Row>
 
@@ -34,16 +34,16 @@ function About() {
         <Row className="about">
           <Col>
           <ul>
-<h3 className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h3>
+<h3 id="about" className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h3>
 </ul>
 </Col>
 
 <Col>
 
       <ul>
-    <h3 className="about-text">Podcasting</h3>
-    <h3 className="about-text">Screenwriting</h3>
-    <h3 className="about-text">Film Production</h3>
+    <h3 className="about-text">Podcasting</h3> 
+    <h3 className="about-text">Screenwriting</h3> 
+    <h3 className="about-text">Film Production</h3> 
     </ul>
 
             </Col>

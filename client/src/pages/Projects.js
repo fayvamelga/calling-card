@@ -13,7 +13,7 @@ function Projects() {
 
 
       <Container className="text-center" >
-        <Row>
+        <Row className="coffee">
           <Col >
             <Image
               className="ceremonyImg"
@@ -43,7 +43,7 @@ function Projects() {
 <br></br>
 
       <Container className="text-center">
-        <Row >
+        <Row className="beginning">
     
 
           <Col className="ceremonyText">
