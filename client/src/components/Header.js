@@ -10,7 +10,7 @@ const AppNavbar = () => {
       {/* <NavDiv/> */}
       <div className="navDiv">
         <Navbar className="navbar" activeKey="/home" id="home" sticky="top">
-          <Container>
+          <Container className="navbar">
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav id="navbar" activeKey="/home">
                 <Nav.Item className="item">

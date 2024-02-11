@@ -7,7 +7,7 @@ function Projects() {
   return (
     <>
       <div id="Projects" className="projDiv"></div>
-      <h1 className="about-title">Projects</h1>
+      <h1 className="about-title"><b>Projects</b></h1>
       <br></br>
       <br></br>
 
@@ -25,12 +25,12 @@ function Projects() {
           <Col className="ceremonyText" >
             <ul >
 
-              <h2 >Ceremony</h2>
-
-              <p >
+              <h1 >Ceremony</h1>
+<br></br>
+              <h4 className="projText">
                 Ceremony is a short film that showcases an encounter between two
                 strangers over traditional Ethiopian coffee.
-              </p>
+              </h4>
             </ul>
           </Col>
         </Row>
@@ -49,14 +49,14 @@ function Projects() {
           <Col className="ceremonyText">
             <ul >
               
-              <h2 >Start From the Beginning</h2>
-
-              <p >
+              <h1>Start From the Beginning</h1>
+<br></br>
+              <h4 className="projText">
               Through a series of interview conversations, Start from the
                 Beginning explores the journeys of an Ethiopian Diaspora family
                 group in the US, how they got here, what they found when they
                 arrived, and why each of them decided to stayed, or didn’t.
-              </p>
+              </h4>
             </ul>
           </Col>
 

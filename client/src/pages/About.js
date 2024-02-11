@@ -10,7 +10,7 @@ function About() {
     <div id="About" className="div"></div>
     <br></br>
     <br></br>
-    <h1 className="about-title" >About Us</h1>
+    <h1 className="about-title" ><b>About Us</b></h1>
     <Container className="us">
         {/* <Row className="about-spacing"> */}
     <Row className="about-text">
@@ -34,16 +34,16 @@ function About() {
         <Row className="about">
           <Col>
           <ul>
-<h3 id="about" className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h3>
+<h4 id="about" className="about-text">Calling Card LLC is a media company that develops and shares Ethiopian stories from across the globe.</h4>
 </ul>
 </Col>
 
 <Col>
 
       <ul>
-    <h3 className="about-text">Podcasting</h3> 
-    <h3 className="about-text">Screenwriting</h3> 
-    <h3 className="about-text">Film Production</h3> 
+    <h4 className="about-text">Podcasting</h4> 
+    <h4 className="about-text">Screenwriting</h4> 
+    <h4 className="about-text">Film Production</h4> 
     </ul>
 
             </Col>
@@ -92,10 +92,10 @@ function About() {
         </Col>
   
         </Container> */}
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {/* <br></br>
+        <br></br> */}
+        {/* <br></br>
+        <br></br> */}
 
     </>
   );

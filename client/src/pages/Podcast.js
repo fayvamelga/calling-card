@@ -8,11 +8,11 @@ function Podcast () {
         <div id="Podcast" className="div">
             <br></br>
             <br></br>
-            <h1 className="about-title">Podcast</h1>
+            <h1 className="about-title"><b>Podcast</b></h1>
             <br></br>
         <Container className="text-center">
             <Row >
-                <h2 className="ceremonyText">There are currently no episodes. Check back soon!</h2>
+                <h4 className="ceremonyText">There are currently no episodes. Check back soon!</h4>
             </Row>
             <br></br>
             <br></br>

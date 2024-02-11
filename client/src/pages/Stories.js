@@ -13,11 +13,11 @@ function Story () {
         <div id="Story" className="div">
             <br></br>
             <br></br>
-            <h1 className="about-title">Share Your Story</h1>
+            <h1 className="about-title"><b>Share Your Story</b></h1>
             <br></br>
         <Container>
             <Row className="text-center">
-                <p className="storyText">Add your family’s story to the diaspora archive.</p>
+                <h4 className="storyText">Add your family’s story to the diaspora archive.</h4>
             </Row>
             <br></br>
             <br></br>
@@ -27,9 +27,9 @@ function Story () {
       </Button>
       <br></br>
       <br></br>     
-      <Button variant="outline-light" className="Archives"size="lg">
+      {/* <Button variant="outline-light" className="Archives"size="lg">
         Archives
-      </Button>
+      </Button> */}
     </div>
         </Container>
         <br></br>

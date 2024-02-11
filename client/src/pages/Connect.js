@@ -25,7 +25,7 @@ function Contact() {
   return (
     <>
       <div id="Connect" className="projDiv"></div>
-      <h1 className="about-title">Connect With Us</h1>
+      <h1 className="about-title"><b>Connect With Us</b></h1>
       <br></br>
              
 <Container>

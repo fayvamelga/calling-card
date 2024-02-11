@@ -10,8 +10,10 @@
 
 * {
   /* color: black;    testing */
-  font-family: 'Noto Serif Malayalam', serif;
+  /* font-family: 'Noto Serif Malayalam', serif; */
+  font-family: 'Courier New', Courier, monospace;
   background-color: black;
+  /* flex-shrink: 1; */
 }
 
 body {
@@ -50,6 +52,7 @@ padding-top: 5%;}
 
 .projDiv {
   padding-top: 9%;}
+
 /* ------ nav bar ------ */
 .navbar-logo {
   display: flex;
@@ -61,7 +64,7 @@ padding-top: 5%;}
 /* margin-top: -30%; 
 margin-bottom: -30%; */
  /* margin: auto;  */
-
+margin-left: 45%;
 }
 
 
@@ -70,7 +73,7 @@ margin-bottom: -30%; */
   /* height: 80px; */
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* background-color: rgba(0, 0, 0, 0.496); */
   background-color: black;
   position: fixed;
@@ -78,6 +81,11 @@ margin-bottom: -30%; */
   /* z-index: 1000; */
   justify-content: space-around;
   align-items: center;
+  /* margin-left: 10px; */
+}
+
+.item {
+  margin-left: 5%;
 }
 
 .navDiv {
@@ -176,8 +184,8 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 1%;
-  margin-right: 1%;
+  /* margin-left: 1%; */
+  /* margin-right: 1%; */
 color: white;
 }
 
@@ -193,7 +201,7 @@ margin-bottom: 1%;
 
 .about-spacing {
   margin-left: 1%;
-margin-right: 1%;
+/* margin-right: 1%; */
 }
 
 .aboutImg {
@@ -219,7 +227,8 @@ margin-right: 1%;
   /* flex-wrap: wrap; */
   /* justify-content: center; */
   /* max-width: 45%; */
-  width: 45%;
+  /* width: 45%; */
+  width: 50%;
   /* margin-left: 15%; */
 }
 
@@ -235,7 +244,7 @@ margin-right: 1%;
   /* width: 40vw; */
   /* width: 40%; */
   /* height: 50vh; */
-/* height: 60vh; */
+height: 60vh;
 /* width: fit-content; */
 }
 
@@ -263,7 +272,7 @@ justify-content: center;
 }
 
 .Archives {
-  visibility: hidden;
+display: none;
 }
 
 /* ---Contact Us--- */
@@ -341,6 +350,19 @@ margin-left: 45%;
   margin-top: 6%;
 }
 
+
+@media (max-width: 1199px) {
+  .ceremonyImg {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991) {
+  .ceremonyImg {
+    width: fit-content;
+  }
+}
+
 @media (max-width: 908px) {
   .navbar-logo {
     display: none;
@@ -357,19 +379,25 @@ margin-left: 45%;
   /* max-width: fit-content; */
   width: 100%;
   justify-content: center;
-    /* max-width: 400px; */
   }
+
   .item {
 display: none;   
   }
+
   .navbar-logo {
     display: flex;
   }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
   #dropdown {
 display: flex;
 color: white;
 justify-content: center;
-/* margin-right: 200px; */
 }
 
 .about-title {
@@ -411,34 +439,11 @@ width: 100%;
 .podcastImg {
   /* display: none; */
   /* height: 50%; */
-width: 100%;
+max-width: 100%;}
+
+.projText {
+  font-size: small;
 }
-
-  /* .navbar-logo {
-    max-height: 10px;
-  } */
-  /* .tab {
-    font-size: small;
-  } */
-  .landing {
-    margin-top: 45%;
-  }
-  .border {
-    /* width: 300px; */
-    display: none;
-  }
-  .projBorder {
-    /* width: 300px; */
-    display: none;
-  }
-  .contactBorder {
-    display: none;
-    /* width: 300px; */
-  }
-  .contactText {
-    margin-left: 5%;
-
-  }
 
   .icons {
 justify-content: space-evenly;
@@ -453,9 +458,7 @@ justify-content: space-evenly;
   
 
 @media (max-width: 666px) {
-  /* .tab {
-    font-size: x-small;
-  } */
+ 
   .social-logo {
     height: 10px;
   }
@@ -472,9 +475,7 @@ justify-content: space-evenly;
     overflow-x: hidden;
     overflow-y: scroll;
   }
-  /* .navbar-logo {
-    max-height: 20px;
-  } */
+ 
   .social-logo {
     height: 15px;
     bottom: 0%;
